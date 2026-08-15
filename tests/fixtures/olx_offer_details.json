@@ -1,0 +1,166 @@
+{
+  "data": {
+    "id": 929558300,
+    "url": "https://www.olx.ua/d/uk/obyavlenie/ssd-disk-teamgroup-gx1-240gb-2-5-sata-iii-ssd-ID10UkzO.html",
+    "title": "SSD Диск - TeamGroup GX1 240GB — 2.5\" SATA III SSD",
+    "last_refresh_time": "2026-07-21T15:53:51+03:00",
+    "created_time": "2026-07-21T15:51:09+03:00",
+    "valid_to_time": "2026-08-20T15:51:10+03:00",
+    "pushup_time": null,
+    "description": "TeamGroup GX1 240GB — 2.5\" SATA III SSD (модель T253X1240G)<br />\n<br />\nБ/У - в рабочем состоянии",
+    "promotion": {
+      "highlighted": false,
+      "urgent": false,
+      "top_ad": false,
+      "options": [],
+      "b2c_ad_page": false,
+      "premium_ad_page": false
+    },
+    "params": [
+      {
+        "key": "price",
+        "name": "Ціна за 1 шт.",
+        "type": "price",
+        "value": {
+          "value": 540,
+          "type": "price",
+          "arranged": false,
+          "budget": false,
+          "currency": "UAH",
+          "negotiable": false,
+          "converted_value": null,
+          "previous_value": null,
+          "converted_previous_value": null,
+          "converted_currency": null,
+          "label": "540 грн.",
+          "previous_label": null
+        }
+      },
+      {
+        "key": "state",
+        "name": "Стан",
+        "type": "select",
+        "value": {
+          "key": "used",
+          "label": "Вживане"
+        }
+      },
+      {
+        "key": "compatibility_brand",
+        "name": "Сумісність з ноутбуками",
+        "type": "checkboxes",
+        "value": {
+          "key": [
+            "drugoe"
+          ],
+          "label": "Інша марка"
+        }
+      },
+      {
+        "key": "for_gaming",
+        "name": "Підходить до ігрових ноутбуків або ПК",
+        "type": "checkbox",
+        "value": {
+          "key": "1",
+          "label": "Підходить до ігрових ноутбуків або ПК"
+        }
+      }
+    ],
+    "key_params": [],
+    "business": false,
+    "user": {
+      "id": 239501581,
+      "created": "2018-07-29T10:54:22+03:00",
+      "other_ads_enabled": true,
+      "name": "Юлія",
+      "logo": null,
+      "logo_ad_page": null,
+      "social_network_account_type": null,
+      "photo": null,
+      "banner_mobile": "",
+      "banner_desktop": "",
+      "company_name": "",
+      "about": "",
+      "b2c_business_page": false,
+      "is_online": false,
+      "last_seen": "2026-07-21T16:23:51+03:00",
+      "seller_type": null,
+      "uuid": "17475ca7-a71d-4047-86cd-627ab378c4de"
+    },
+    "status": "active",
+    "contact": {
+      "name": "Юлія",
+      "phone": false,
+      "chat": true,
+      "negotiation": false,
+      "courier": true
+    },
+    "map": {
+      "zoom": 12,
+      "lat": 49.3697,
+      "lon": 35.44899,
+      "radius": 3,
+      "show_detailed": false
+    },
+    "location": {
+      "city": {
+        "id": 349,
+        "name": "Берестин",
+        "normalized_name": "krasnograd"
+      },
+      "region": {
+        "id": 8,
+        "name": "Харківська область",
+        "normalized_name": "kha"
+      }
+    },
+    "photos": [
+      {
+        "id": 4891780042,
+        "filename": "zlydj6kmk1ny2-UA",
+        "rotation": 0,
+        "width": 3072,
+        "height": 4080,
+        "link": "https://ireland.apollo.olxcdn.com:443/v1/files/zlydj6kmk1ny2-UA/image;s={width}x{height}"
+      },
+      {
+        "id": 4891780043,
+        "filename": "xqw7pdgbs3dk2-UA",
+        "rotation": 0,
+        "width": 3072,
+        "height": 4080,
+        "link": "https://ireland.apollo.olxcdn.com:443/v1/files/xqw7pdgbs3dk2-UA/image;s={width}x{height}"
+      }
+    ],
+    "partner": null,
+    "category": {
+      "id": 3784,
+      "type": "electronics"
+    },
+    "delivery": {
+      "rock": {
+        "offer_id": null,
+        "active": false,
+        "mode": null
+      }
+    },
+    "safedeal": {
+      "weight": 1,
+      "weight_grams": 1000,
+      "status": "active",
+      "safedeal_blocked": false,
+      "allowed_quantity": []
+    },
+    "shop": {
+      "subdomain": null
+    },
+    "isGpsrAvailable": false,
+    "offer_type": "offer",
+    "protect_phone": true
+  },
+  "links": {
+    "self": {
+      "href": "https://www.olx.ua/api/v1/offers/929558300"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 [project]
 name = "marketua"
-version = "0.1.0"
+version = "0.1.1"
 description = "MCP server that lets AI agents search Ukrainian marketplaces (OLX, Hotline, Prom; Rozetka via Bright Data)."
 readme = "README.md"
 requires-python = ">=3.11"

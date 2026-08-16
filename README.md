@@ -127,6 +127,8 @@ Any MCP client works. **OpenCode**:
 }
 ```
 
+**If the client can't find `uvx`:** GUI apps (VS Code, Claude Desktop, Cursor) often don't inherit your shell's PATH, so a freshly installed `uv` (in `~/.local/bin`) may be invisible to them. Find the path with `which uvx` and put it in `command`, or skip `uvx` entirely: `pip install marketua` and use `marketua` as the command.
+
 **Optional env vars.** The server reads `MARKETUA_DISABLE_PROVIDERS` (comma-separated:
 `olx`, `hotline`, `prom`) from its own environment to disable marketplaces. Most MCP clients
 (Claude Desktop, Cursor — see below) forward a per-server `env` block from the config;

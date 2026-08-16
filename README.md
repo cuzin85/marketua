@@ -7,7 +7,7 @@ plain-language prompt and get back structured offers with links.
 > **Status: alpha.** OLX, Hotline and Prom work out of the box (no tokens); Rozetka is
 > covered through the optional Bright Data MCP server (free tier: 5 000 requests/month).
 > Verified with MCP Inspector and a real agent (OpenCode), including a 4-marketplace
-> price comparison from a single prompt. Hermes wiring is the final step.
+> price comparison from a single prompt.
 
 ## Idea
 
@@ -190,9 +190,6 @@ include it only to disable marketplaces (comma-separated: `olx`, `hotline`, `pro
 }
 ```
 
-> Hermes Agent wiring is planned as the **final milestone**, after publishing (M3) — see the
-> section at the bottom of this file.
-
 For manual verification of every tool, use MCP Inspector:
 
 ```bash
@@ -227,37 +224,6 @@ MCP layer (tools)  →  Provider interface  →  [OLXProvider, HotlineProvider, 
   results.
 - Credentials (e.g. the Bright Data token) are configured by you in your client or shell,
   never committed.
-
-## Roadmap
-
-- **M0 — Spike: done.** OLX only; server connected to OpenCode, verified with MCP
-  Inspector, end-to-end prompt test passes.
-- **M1 — Solid MVP (OLX): done.** enum + range filters (generic discovery), sorting
-  (newest server-side, price client-side), pagination, offer details, helper tools,
-  prompt instructions, unit tests, E2E verified with OpenCode.
-- **M2 — Multi-platform: done.** Hotline and Prom reachable directly (SSR), Rozetka via
-  the Bright Data MCP browser tools; a common offer schema across platforms; provider
-  config via env vars (`MARKETUA_DISABLE_PROVIDERS`).
-- **M3 — Open source: done.** Public repo, MIT license, packaged for PyPI (`pip install
-  marketua` / `uvx marketua`); Rozetka stays optional via the Bright Data MCP
-  (OLX/Hotline/Prom work without any token).
-- **Final milestone — Hermes Agent:** wire the server into Hermes (see below), once
-  everything else is stable.
-
-## Hermes Agent (final milestone)
-
-Wiring into Hermes Agent is deliberately left for last. When the time comes:
-
-```yaml
-# Hermes config.yaml, key: mcp_servers
-mcp_servers:
-  marketua:
-    command: "uvx"
-    args: ["marketua"]
-    # tools are prefixed with the server name: marketua_search_offers, ...
-```
-
-Then `hermes mcp test marketua`, and `/reload-mcp` in the chat.
 
 ## License & disclaimer
 

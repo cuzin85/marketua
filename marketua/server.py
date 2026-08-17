@@ -19,12 +19,14 @@ from typing import Annotated, Literal
 from mcp.server.mcpserver import MCPServer
 from pydantic import Field
 
+from marketua import __version__
 from marketua.config import provider_enabled
 from marketua.providers import HotlineProvider, OLXProvider, PromProvider
 from marketua.reference import OLX_CATEGORIES, OLX_MAJOR_CITIES, OLX_REGIONS
 
 mcp = MCPServer(
     "marketua",
+    version=__version__,
     instructions=(
         "Search Ukrainian marketplaces and report structured results. Rules:\n"
         "- Never invent filter keys, region/city/category ids or prices: take them only from "
